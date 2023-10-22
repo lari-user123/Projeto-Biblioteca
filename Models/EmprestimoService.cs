@@ -67,7 +67,7 @@ namespace Biblioteca.Models
                 }
                 
                 //ordenação padrão
-                 return query.Include(e => e.Livro).ToList();
+                return query.Include(e => e.Livro).ToList();
             }
         }
 
